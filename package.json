@@ -1,0 +1,11 @@
+{
+  "name": "sass-mixins-kit",
+  "version": "0.1.0",
+  "description": "A bunch of useful less mixins that help you write less faster.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panteng/less-mixins-kit.git"
+  },
+  "author": "Chris Pan <panteng@outlook.com> (http://panteng.me)",
+  "license": "MIT"
+}

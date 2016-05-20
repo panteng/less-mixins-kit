@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.clearfix() {
+    &::after {
+        content:"";
+        display:table;
+        clear:both;
+    }
+}
+
+.text-ellipsis() {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.user-select(@value: none) {
+    -moz-user-select: @value;
+    -ms-user-select: @value;
+    -webkit-user-select: @value;
+    user-select: @value;
+}
