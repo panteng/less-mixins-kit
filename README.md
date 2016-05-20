@@ -41,7 +41,7 @@ A bunch of useful less mixins that help you write less faster.
             .text-ellipsis();
         }
 
-3. user-select($value: none)
+3. user-select(@value: none)
 
     Add vendor prefixes to `user-select` property.
     
