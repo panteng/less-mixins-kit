@@ -45,7 +45,7 @@ A bunch of useful less mixins that help you write less faster.
 
     Add vendor prefixes to `user-select` property.
     
-    Most of the time I don't add vendor prefixes in this "sass-mixin" way because [PostCSS](http://postcss.org/) can do it for me.
+    Most of the time I don't add vendor prefixes in this "less-mixin" way because [PostCSS](http://postcss.org/) can do it for me.
     But it is weird that PostCSS don't add vendor prefixes to 'user-select' property. So I have to add vendor prefixies myself.
 
         span {
